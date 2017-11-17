@@ -10,7 +10,7 @@ export default class BarraNavegacao extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.titulo}>
-          XPTO Consultoria
+          ATM Consultoria
         </Text>
       </View>
     );
@@ -21,12 +21,13 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-    height: 100
+    backgroundColor: '#CCC',
+    padding:10,
+    height: 90
   },
   titulo: {
     fontSize: 20,
-    textAlign: 'center',
+    textAlign: 'center', 
     margin: 10,
   }
 });
